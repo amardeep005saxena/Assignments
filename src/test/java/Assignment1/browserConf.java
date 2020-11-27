@@ -14,7 +14,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 public class browserConf {
     public WebDriver driver;
 
-    static String driverPath = "C:\\Users\\Lenovo\\Downloads\\";
+    static String driverPath = "C:\\Users\\Lenovo\\Downloads\\";  // Change the location of driver for both IE and chrome.
+    public String browser="chrome";  // Change the browser- chrome or IE
 
     public WebDriver getDriver() {
         return driver;
